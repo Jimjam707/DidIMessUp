@@ -1,1 +1,9 @@
-rootProject.name = 'example'
+pluginManagement {
+    repositories {
+        gradlePluginPortal()
+        mavenCentral()
+        maven { url = 'https://repo.runelite.net' }
+    }
+}
+
+rootProject.name = 'runelite-plugins'
